@@ -2,18 +2,16 @@
 
 <p align="center"><a href="https://johnportifolio.rjaybarber.shop"><strong>Portfolio</strong></a> · <a href="https://johnportifolio.rjaybarber.shop/experience">Experience</a> · <a href="https://www.linkedin.com/in/ruhumbika-mtumba-john">LinkedIn</a></p>
 
-I build business applications and integrations at **Abood Group** and lead **RJAY Digital Hub**. My work connects ERP workflows, WhatsApp services, attendance systems and advertising broadcast operations.
+I am a software engineer working across full stack development, business applications and workflow automation. I work at **Abood Group** and lead **RJAY Digital Hub**.
 
 ### Selected work
 
-| Project | My work |
+| Project | Contribution |
 | :--- | :--- |
-| [WhatsApp Approval Gateway](https://github.com/Ruhumbika/WHATSAPP-APPROVAL) | ERP approvals, identity binding, callbacks and delivery recovery. |
-| [Abood Media Gateway](https://github.com/Ruhumbika/ABOOD-MEDIA-GATEWAY-) | Studio integration, scheduled work and playback confirmation. |
-| [Hotspot Billing Platform](https://github.com/Ruhumbika/WIFI-SOFTWARE) | Laravel/Vue application, payments and MikroTik access management. |
-| [Portfolio](https://github.com/Ruhumbika/PORTFOLIO) | Next.js case studies and professional experience. |
-| [UDSM Startup Portal](https://github.com/Ruhumbika/udsm-startup-incubator) | Academic team lead and homepage developer. |
+| [Business approval software](https://johnportifolio.rjaybarber.shop/projects/whatsapp-approval-gateway) | Application development and workflow automation. |
+| [Media software](https://johnportifolio.rjaybarber.shop/projects/abood-radio-studio-gateway) | Software integration and operational support. |
+| [WiFi service platform](https://johnportifolio.rjaybarber.shop/projects/mwanakitaa-kitonga-wifi) | Customer and administration interfaces. |
+| [Portfolio](https://github.com/Ruhumbika/PORTFOLIO) | Professional project presentation with Next.js. |
+| [UDSM Startup Portal](https://github.com/Ruhumbika/udsm-startup-incubator) | Academic team leadership and homepage development. |
 
 **Core stack:** Python · PHP / Laravel · JavaScript / TypeScript · Vue · Next.js
-
-[More case studies](https://johnportifolio.rjaybarber.shop/projects), including biometric attendance integration and the RJAY booking platform.
