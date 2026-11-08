@@ -10,7 +10,7 @@ I am a software engineer working across full stack development, business applica
 | :--- | :--- |
 | [Business approval software](https://johnportifolio.rjaybarber.shop/projects/whatsapp-approval-gateway) | Application development and workflow automation. |
 | [Media software](https://johnportifolio.rjaybarber.shop/projects/abood-radio-studio-gateway) | Software integration and operational support. |
-| [WiFi service platform](https://johnportifolio.rjaybarber.shop/projects/mwanakitaa-kitonga-wifi) | Customer and administration interfaces. |
+| [WiFi service platform](https://johnportifolio.rjaybarber.shop/projects/rjay-wifi-platform) | Customer and administration interfaces. |
 | [Portfolio](https://github.com/Ruhumbika/PORTFOLIO) | Professional project presentation with Next.js. |
 | [UDSM Startup Portal](https://github.com/Ruhumbika/udsm-startup-incubator) | Academic team leadership and homepage development. |
 
