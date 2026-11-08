@@ -2,7 +2,7 @@
 
 **Software Engineer | Full Stack Development, ERP Integrations & Workflow Automation**
 
-I build business applications and integrations across enterprise workflows, transport, media and digital services. At Abood Group, my work spans PETA Holdings, Abood Bus, attendance integration and advertising broadcast workflows. I also lead RJAY Digital Hub.
+I develop full stack applications and connect business systems through APIs and automation. At Abood Group, I work across PETA Holdings ERP, Abood Bus WhatsApp ticketing support, approval workflows, biometric attendance integration and Abood Media's advertising broadcast workflow. I am also the founder of RJAY Digital Hub.
 
 [Portfolio & project case studies](https://johnportifolio.rjaybarber.shop) · [LinkedIn](https://www.linkedin.com/in/ruhumbika-mtumba-john)
 
@@ -18,6 +18,6 @@ I build business applications and integrations across enterprise workflows, tran
 
 ## Technical focus
 
-Python services and API integrations, PHP with Laravel, and JavaScript/TypeScript with Vue and Next.js. I focus on reliable workflow execution, clear authorization boundaries, persistent queues and maintainable interfaces.
+I use Python for integration services, PHP and Laravel for business applications, and JavaScript/TypeScript with Vue and Next.js for web interfaces. My integration work includes payment callbacks, approval decisions, device data and broadcast confirmation, with attention to authentication, retries and audit records.
 
 Additional work, including biometric attendance integration and the RJAY booking platform, is documented in my [portfolio](https://johnportifolio.rjaybarber.shop/projects).
