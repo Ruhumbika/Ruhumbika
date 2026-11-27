@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="166" viewBox="0 0 1000 166" role="img" aria-labelledby="title">
+  <title id="title">Technology stack — backend, frontend, data and delivery</title>
+  <style>
+    .heading { font: 700 23px system-ui, sans-serif; }
+    .detail { font: 18px system-ui, sans-serif; }
+    .scan { opacity: 0; animation: scan 6s ease-in-out infinite; }
+    @keyframes scan { 0%, 24%, 100% { opacity: 0; transform: translateX(0); } 42% { opacity: .75; } 68% { opacity: 0; transform: translateX(231px); } }
+    @media (prefers-reduced-motion: reduce) { .scan { animation: none; } }
+  </style>
+  <rect x=".5" y=".5" width="999" height="165" rx="14" fill="#f1f7f7" stroke="#b7c9cf"/>
+  <g transform="translate(21 19)">
+    <rect width="302" height="128" rx="11" fill="#ffffff" stroke="#b7c9cf"/>
+    <path d="M19 21l-9 8 9 8m22-16 9 8-9 8m-14 4 7-24" fill="none" stroke="#086857" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="heading" x="62" y="39" fill="#183042">Backend</text>
+    <text class="detail" x="62" y="71" fill="#385568">PHP / Laravel</text>
+    <text class="detail" x="62" y="95" fill="#385568">Python / FastAPI</text>
+    <path d="M19 112h263" stroke="#b7c9cf"/>
+    <path class="scan" style="animation-delay:-0.0s" d="M19 112h30" stroke="#086857" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(349 19)">
+    <rect width="302" height="128" rx="11" fill="#ffffff" stroke="#b7c9cf"/>
+    <path d="M12 20h36v21H12zM12 25h36m-20 3h-9m18 0h4m-22 7h22" fill="none" stroke="#174f89" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="heading" x="62" y="39" fill="#183042">Frontend</text>
+    <text class="detail" x="62" y="71" fill="#385568">TypeScript / Vue</text>
+    <text class="detail" x="62" y="95" fill="#385568">Next.js</text>
+    <path d="M19 112h263" stroke="#b7c9cf"/>
+    <path class="scan" style="animation-delay:-1.35s" d="M19 112h30" stroke="#174f89" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(677 19)">
+    <rect width="302" height="128" rx="11" fill="#ffffff" stroke="#b7c9cf"/>
+    <path d="M14 21c0-6 32-6 32 0v17c0 6-32 6-32 0zm0 0c0 6 32 6 32 0m-32 8c0 6 32 6 32 0" fill="none" stroke="#8a4a0e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="heading" x="62" y="39" fill="#183042">Data &amp; delivery</text>
+    <text class="detail" x="62" y="71" fill="#385568">MySQL / PostgreSQL</text>
+    <text class="detail" x="62" y="95" fill="#385568">Docker / Linux / Actions</text>
+    <path d="M19 112h263" stroke="#b7c9cf"/>
+    <path class="scan" style="animation-delay:-2.7s" d="M19 112h30" stroke="#8a4a0e" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

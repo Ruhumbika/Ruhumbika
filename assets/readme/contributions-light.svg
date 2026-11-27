@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="229" viewBox="0 0 1000 229" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub contribution calendar</title>
+  <desc id="desc">GitHub activity will appear after the first refresh. Animated scan across weekly contribution cells.</desc>
+  <style>
+    .title { font: 700 22px system-ui, sans-serif; }
+    .caption { font: 14px system-ui, sans-serif; }
+    .label { font: 12px ui-monospace, monospace; }
+    .scan { opacity: 0; animation: scan 13s linear infinite; }
+    .wake { opacity: 0; animation: wake 13s linear infinite; }
+    @keyframes scan { 0% { opacity: 0; } 4%, 84% { opacity: .86; } 92%, 100% { opacity: 0; transform: translateX(var(--span, 877px)); } }
+    @keyframes wake { 0%, 100% { opacity: 0; } 3% { opacity: .85; } 11% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .scan, .wake { animation: none; } }
+  </style>
+  <rect x=".5" y=".5" width="999" height="228" rx="14" fill="#f1f7f7" stroke="#b7c9cf"/>
+  <text x="27" y="37" class="title" fill="#183042">Contribution calendar</text>
+  <text x="27" y="61" class="caption" fill="#385568">GitHub activity will appear after the first refresh.</text>
+  <rect x="27" y="84" width="946" height="118" rx="10" fill="#dce8eb"/>
+</svg>

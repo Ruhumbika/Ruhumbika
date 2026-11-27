@@ -1,1 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc"><title id="title">Ruhumbika Mtumba John</title><desc id="desc">Full stack development. Business systems. Integration. APPLICATIONS: Web platforms. INTEGRATIONS: APIs and connected systems. AUTOMATION: Business workflows</desc><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1721"/><stop offset="1" stop-color="#142c36"/></linearGradient></defs><rect width="1200" height="360" rx="18" fill="url(#bg)"/><path d="M752 0v360" stroke="#314653"/><path d="M1155 0v360M1200 40H752M1200 325H752" stroke="#29434e" opacity=".5"/><g font-family="DejaVu Sans,Arial,sans-serif"><rect x="58" y="39" width="28" height="4" rx="2" fill="#53debd"/><text x="98" y="46" font-size="12" font-weight="700" letter-spacing="2" fill="#53debd">SOFTWARE ENGINEER</text><text x="55" y="123" font-size="44" font-weight="700" letter-spacing="-1" fill="#f4f7fa">Ruhumbika</text><text x="55" y="181" font-size="44" font-weight="700" letter-spacing="-1" fill="#f4f7fa">Mtumba John</text><text x="58" y="231" font-size="17" fill="#acbec9">Full stack development. Business systems. Integration.</text><rect x="58" y="290" width="72.4" height="29" rx="7" fill="#172b35" stroke="#354e59"/><text x="72" y="309" font-size="12" fill="#d5e4eb">Python</text><rect x="140.4" y="290" width="124.2" height="29" rx="7" fill="#172b35" stroke="#354e59"/><text x="154.4" y="309" font-size="12" fill="#d5e4eb">PHP / Laravel</text><rect x="274.6" y="290" width="198.20000000000002" height="29" rx="7" fill="#172b35" stroke="#354e59"/><text x="288.6" y="309" font-size="12" fill="#d5e4eb">JavaScript / TypeScript</text><rect x="805" y="69" width="330" height="65" rx="12" fill="#152632" stroke="#314653"/><rect x="805" y="86" width="3" height="31" rx="1.5" fill="#53debd"/><text x="831" y="95" fill="#53debd" font-size="12" letter-spacing="1.7" font-weight="700">APPLICATIONS</text><text x="831" y="117" fill="#dbe6ed" font-size="17">Web platforms</text><path d="M970 134v19m-4-4 4 4 4-4" stroke="#53debd" stroke-width="1.5" fill="none"/><rect x="805" y="153" width="330" height="65" rx="12" fill="#152632" stroke="#314653"/><rect x="805" y="170" width="3" height="31" rx="1.5" fill="#53debd"/><text x="831" y="179" fill="#53debd" font-size="12" letter-spacing="1.7" font-weight="700">INTEGRATIONS</text><text x="831" y="201" fill="#dbe6ed" font-size="17">APIs and connected systems</text><path d="M970 218v19m-4-4 4 4 4-4" stroke="#53debd" stroke-width="1.5" fill="none"/><rect x="805" y="237" width="330" height="65" rx="12" fill="#152632" stroke="#314653"/><rect x="805" y="254" width="3" height="31" rx="1.5" fill="#53debd"/><text x="831" y="263" fill="#53debd" font-size="12" letter-spacing="1.7" font-weight="700">AUTOMATION</text><text x="831" y="285" fill="#dbe6ed" font-size="17">Business workflows</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title description">
+  <title id="title">Ruhumbika Mtumba John — Software Engineer</title>
+  <desc id="description">Animated signals illuminate six projects across enterprise systems, customer applications and student support.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b1720"/>
+      <stop offset="1" stop-color="#101b29"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#1c6863" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#1c6863" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0v24" fill="none" stroke="#81a6bb" stroke-opacity=".14"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="430" rx="19"/></clipPath>
+    <path id="route-peta" pathLength="100" d="M600 215H632V111H725"/>
+    <path id="route-approval" pathLength="100" d="M600 215H641V155H725"/>
+    <path id="route-attendance" pathLength="100" d="M600 215H650V199H725"/>
+    <path id="route-radio" pathLength="100" d="M600 215H650V243H725"/>
+    <path id="route-booking" pathLength="100" d="M600 215H641V287H725"/>
+    <path id="route-student" pathLength="100" d="M600 215H632V331H725"/>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, Consolas, monospace; }
+    .sans { font-family: system-ui, sans-serif; }
+    .line { fill: none; stroke: currentColor; }
+    .signal { stroke-width: 4; stroke-linecap: round; stroke-dasharray: 1 99; animation: signal 4.1s linear infinite; }
+    .echo { stroke-width: 2; stroke-dasharray: 8 92; opacity: .55; animation: signal 4.1s linear infinite; }
+    .pulse { transform-origin: 562px 215px; animation: pulse 4.1s ease-out infinite; }
+    .beacon { animation: beacon 4.1s ease-in-out infinite; }
+    @keyframes signal { to { stroke-dashoffset: -100; } }
+    @keyframes pulse { from { transform: scale(.75); opacity: .8; } to { transform: scale(1.52); opacity: 0; } }
+    @keyframes beacon { 0%, 50%, 100% { opacity: .45; } 65%, 78% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .signal, .echo, .pulse, .beacon { animation: none; }
+      .signal, .echo, .pulse { opacity: 0; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="430" fill="url(#background)"/>
+    <rect x="480" width="520" height="430" fill="url(#grid)"/>
+    <ellipse cx="595" cy="215" rx="231" ry="219" fill="url(#halo)" opacity=".53"/>
+    <path d="M480 0v430M0 382h1000" fill="none" stroke="#345064"/>
+    <path d="M45 58h25" stroke="#70efd2" stroke-width="3" stroke-linecap="round"/>
+    <text x="83" y="63" class="mono" font-size="15" font-weight="700" letter-spacing="2" fill="#83e9d3">SOFTWARE ENGINEER</text>
+    <g class="sans" fill="#f4fafb" font-size="55" font-weight="750" letter-spacing="-1.8">
+      <text x="43" y="157">Ruhumbika</text>
+      <text x="43" y="219">Mtumba John</text>
+    </g>
+    <g class="sans" fill="#c5d5e0" font-size="19">
+      <text x="46" y="273">Business systems, APIs</text>
+      <text x="46" y="301">and workflow automation.</text>
+    </g>
+    <text x="46" y="408" class="mono" font-size="13" letter-spacing="1" fill="#a8c2d0">TANZANIA  /  ABOOD GROUP  /  RJAY DIGITAL HUB</text>
+    <text x="507" y="63" class="mono" font-size="13" letter-spacing="1.5" fill="#a8c2d0">PROJECT HIGHLIGHTS</text>
+    <circle cx="562" cy="215" r="56" fill="none" stroke="#6dcbbd" opacity=".27" stroke-dasharray="3 7"/>
+    <circle class="pulse" cx="562" cy="215" r="45" fill="none" stroke="#78efd0" stroke-width="1.5"/>
+    <rect x="524" y="177" width="76" height="76" rx="18" fill="#102a34" stroke="#74ddc6"/>
+    <path d="M534 215h12l6-12 9 27 11-32 8 17h10" fill="none" stroke="#9af9dc" stroke-width="2.3" stroke-linejoin="round"/>
+    <g color="#78e4cf">
+      <use href="#route-peta" class="line" stroke-opacity=".35" stroke-linejoin="round"/>
+      <use href="#route-peta" class="line signal" style="animation-delay:-0.1s"/>
+      <use href="#route-peta" class="line echo" style="animation-delay:0.04000000000000001s"/>
+    </g>
+    <g color="#83f1a7">
+      <use href="#route-approval" class="line" stroke-opacity=".35" stroke-linejoin="round"/>
+      <use href="#route-approval" class="line signal" style="animation-delay:-0.66s"/>
+      <use href="#route-approval" class="line echo" style="animation-delay:-0.52s"/>
+    </g>
+    <g color="#8ecbff">
+      <use href="#route-attendance" class="line" stroke-opacity=".35" stroke-linejoin="round"/>
+      <use href="#route-attendance" class="line signal" style="animation-delay:-1.22s"/>
+      <use href="#route-attendance" class="line echo" style="animation-delay:-1.08s"/>
+    </g>
+    <g color="#f6c582">
+      <use href="#route-radio" class="line" stroke-opacity=".35" stroke-linejoin="round"/>
+      <use href="#route-radio" class="line signal" style="animation-delay:-1.78s"/>
+      <use href="#route-radio" class="line echo" style="animation-delay:-1.6400000000000001s"/>
+    </g>
+    <g color="#f3a9aa">
+      <use href="#route-booking" class="line" stroke-opacity=".35" stroke-linejoin="round"/>
+      <use href="#route-booking" class="line signal" style="animation-delay:-2.34s"/>
+      <use href="#route-booking" class="line echo" style="animation-delay:-2.1999999999999997s"/>
+    </g>
+    <g color="#cdbeff">
+      <use href="#route-student" class="line" stroke-opacity=".35" stroke-linejoin="round"/>
+      <use href="#route-student" class="line signal" style="animation-delay:-2.9s"/>
+      <use href="#route-student" class="line echo" style="animation-delay:-2.76s"/>
+    </g>
+    <g color="#78e4cf">
+      <rect x="725" y="92" width="236" height="38" rx="8" fill="#10252d" stroke="#3e736e"/>
+      <circle class="beacon" style="animation-delay:-0.1s" cx="740" cy="107" r="3" fill="currentColor"/>
+      <text x="751" y="110" class="sans" fill="#f1f7fb" font-size="14" font-weight="700">PETA Holdings ERP</text>
+      <text x="751" y="123" class="mono" fill="#c0cfd8" font-size="10.5">Property and lease operations</text>
+    </g>
+    <g color="#83f1a7">
+      <rect x="725" y="136" width="236" height="38" rx="8" fill="#132a29" stroke="#3a7461"/>
+      <circle class="beacon" style="animation-delay:-0.66s" cx="740" cy="151" r="3" fill="currentColor"/>
+      <text x="751" y="154" class="sans" fill="#f1f7fb" font-size="14" font-weight="700">WhatsApp ERP Approvals</text>
+      <text x="751" y="167" class="mono" fill="#c0cfd8" font-size="10.5">Decisions and ERP callbacks</text>
+    </g>
+    <g color="#8ecbff">
+      <rect x="725" y="180" width="236" height="38" rx="8" fill="#132431" stroke="#4a6d8b"/>
+      <circle class="beacon" style="animation-delay:-1.22s" cx="740" cy="195" r="3" fill="currentColor"/>
+      <text x="751" y="198" class="sans" fill="#f1f7fb" font-size="14" font-weight="700">Biometric Attendance</text>
+      <text x="751" y="211" class="mono" fill="#c0cfd8" font-size="10.5">Device events to GHRM</text>
+    </g>
+    <g color="#f6c582">
+      <rect x="725" y="224" width="236" height="38" rx="8" fill="#25262b" stroke="#806b50"/>
+      <circle class="beacon" style="animation-delay:-1.78s" cx="740" cy="239" r="3" fill="currentColor"/>
+      <text x="751" y="242" class="sans" fill="#f1f7fb" font-size="14" font-weight="700">Abood Media Radio</text>
+      <text x="751" y="255" class="mono" fill="#c0cfd8" font-size="10.5">Ad schedules to RadioBOSS</text>
+    </g>
+    <g color="#f3a9aa">
+      <rect x="725" y="268" width="236" height="38" rx="8" fill="#2d2530" stroke="#795963"/>
+      <circle class="beacon" style="animation-delay:-2.34s" cx="740" cy="283" r="3" fill="currentColor"/>
+      <text x="751" y="286" class="sans" fill="#f1f7fb" font-size="14" font-weight="700">RJAY Barbershop</text>
+      <text x="751" y="299" class="mono" fill="#c0cfd8" font-size="10.5">Online booking and scheduling</text>
+    </g>
+    <g color="#cdbeff">
+      <rect x="725" y="312" width="236" height="38" rx="8" fill="#23253b" stroke="#665d8a"/>
+      <circle class="beacon" style="animation-delay:-2.9s" cx="740" cy="327" r="3" fill="currentColor"/>
+      <text x="751" y="330" class="sans" fill="#f1f7fb" font-size="14" font-weight="700">Student Support LLM</text>
+      <text x="751" y="343" class="mono" fill="#c0cfd8" font-size="10.5">FAQ retrieval and AI assistant</text>
+    </g>
+  </g>
+</svg>
