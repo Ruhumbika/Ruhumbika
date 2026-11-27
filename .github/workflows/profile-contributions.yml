@@ -1,0 +1,45 @@
+name: Update profile contributions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-contributions.yml'
+      - 'scripts/render_contributions.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contributions
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Render GitHub contribution calendar
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/render_contributions.py
+      - name: Commit updated SVGs
+        run: |
+          git fetch --depth=1 origin refs/heads/profile-activity:refs/remotes/origin/profile-activity
+          output="$RUNNER_TEMP/profile-activity"
+          git worktree add --detach "$output" origin/profile-activity
+          cp assets/readme/contributions-{dark,light}.svg "$output/assets/readme/"
+          cd "$output"
+          git add assets/readme/contributions-dark.svg assets/readme/contributions-light.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh profile contribution calendar'
+          git push origin HEAD:refs/heads/profile-activity
