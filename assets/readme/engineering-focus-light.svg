@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 372" width="1000" height="372" role="img" aria-labelledby="focus-title focus-description">
+  <title id="focus-title">Engineering focus</title>
+  <desc id="focus-description">Four animated diagrams for API engineering, IT audit, defensive cybersecurity and network engineering.</desc>
+  <style>
+    .title { font: 700 22px system-ui, sans-serif; }
+    .context { font: 15px system-ui, sans-serif; }
+    .step { font: 600 14px ui-monospace, Consolas, monospace; }
+    .signal { stroke-width: 3; stroke-linecap: round; stroke-dasharray: 10 90; animation: signal 4.3s linear infinite; }
+    .pulse { opacity: 0; animation: pulse 4.3s ease-out infinite; }
+    @keyframes signal { 0% { stroke-dashoffset: 10; opacity: 0; } 10%, 74% { opacity: .85; } 84%, 100% { stroke-dashoffset: -100; opacity: 0; } }
+    @keyframes pulse { 0%, 36%, 100% { opacity: 0; } 10% { opacity: .65; } }
+    @media (prefers-reduced-motion: reduce) { .signal, .pulse { animation: none; opacity: 0; } }
+  </style>
+  <rect x=".5" y=".5" width="999" height="371" rx="17" fill="#eef5f7" stroke="#b3c8d1"/>
+  <g transform="translate(18 18)" color="#116859">
+    <rect width="473" height="160" rx="13" fill="#ffffff" stroke="#b3c8d1"/>
+    <rect x="21" y="19" width="48" height="48" rx="11" fill="currentColor" fill-opacity=".12"/>
+    <path d="M15 18l-7 6 7 6m17-12 7 6-7 6m-10 4 5-20" transform="translate(21 19)" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="40" class="title" fill="#152d40">API Engineering</text>
+    <text x="84" y="61" class="context" fill="#3e596a">REST APIs, webhooks and background processing</text>
+    <path d="M36 110h399" fill="none" stroke="#a9bfca"/>
+    <path class="signal" style="animation-delay:0.00s" d="M36 110h399" pathLength="100" fill="none" stroke="currentColor"/>
+    <circle class="pulse" style="animation-delay:0.00s" cx="36" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="36" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="36" y="135" text-anchor="start" class="step" fill="#152d40">Validate</text>
+    <circle class="pulse" style="animation-delay:0.70s" cx="235.5" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="235.5" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="235.5" y="135" text-anchor="middle" class="step" fill="#152d40">Queue</text>
+    <circle class="pulse" style="animation-delay:1.40s" cx="435" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="435" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="435" y="135" text-anchor="end" class="step" fill="#152d40">Callback</text>
+  </g>
+  <g transform="translate(509 18)" color="#794603">
+    <rect width="473" height="160" rx="13" fill="#ffffff" stroke="#b3c8d1"/>
+    <rect x="21" y="19" width="48" height="48" rx="11" fill="currentColor" fill-opacity=".12"/>
+    <path d="M15 13h16l5 5v17H15zM31 13v6h5m-16 4h10m-10 4h10m-10 4h6" transform="translate(21 19)" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="40" class="title" fill="#152d40">IT Audit</text>
+    <text x="84" y="61" class="context" fill="#3e596a">Access controls, change traceability and evidence</text>
+    <path d="M36 110h399" fill="none" stroke="#a9bfca"/>
+    <path class="signal" style="animation-delay:-0.92s" d="M36 110h399" pathLength="100" fill="none" stroke="currentColor"/>
+    <circle class="pulse" style="animation-delay:-0.92s" cx="36" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="36" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="36" y="135" text-anchor="start" class="step" fill="#152d40">Review</text>
+    <circle class="pulse" style="animation-delay:-0.22s" cx="235.5" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="235.5" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="235.5" y="135" text-anchor="middle" class="step" fill="#152d40">Trace</text>
+    <circle class="pulse" style="animation-delay:0.48s" cx="435" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="435" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="435" y="135" text-anchor="end" class="step" fill="#152d40">Document</text>
+  </g>
+  <g transform="translate(18 194)" color="#8d4056">
+    <rect width="473" height="160" rx="13" fill="#ffffff" stroke="#b3c8d1"/>
+    <rect x="21" y="19" width="48" height="48" rx="11" fill="currentColor" fill-opacity=".12"/>
+    <path d="M24 12c4 4 8 5 12 6v6c0 6-5 10-12 13-7-3-12-7-12-13v-6c4-1 8-2 12-6zm-5 12 4 4 6-7" transform="translate(21 19)" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="40" class="title" fill="#152d40">Cybersecurity</text>
+    <text x="84" y="61" class="context" fill="#3e596a">Secure configuration and defensive monitoring</text>
+    <path d="M36 110h399" fill="none" stroke="#a9bfca"/>
+    <path class="signal" style="animation-delay:-1.84s" d="M36 110h399" pathLength="100" fill="none" stroke="currentColor"/>
+    <circle class="pulse" style="animation-delay:-1.84s" cx="36" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="36" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="36" y="135" text-anchor="start" class="step" fill="#152d40">Harden</text>
+    <circle class="pulse" style="animation-delay:-1.14s" cx="235.5" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="235.5" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="235.5" y="135" text-anchor="middle" class="step" fill="#152d40">Monitor</text>
+    <circle class="pulse" style="animation-delay:-0.44s" cx="435" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="435" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="435" y="135" text-anchor="end" class="step" fill="#152d40">Triage</text>
+  </g>
+  <g transform="translate(509 194)" color="#235c92">
+    <rect width="473" height="160" rx="13" fill="#ffffff" stroke="#b3c8d1"/>
+    <rect x="21" y="19" width="48" height="48" rx="11" fill="currentColor" fill-opacity=".12"/>
+    <path d="M24 20v7m-11 4v-5h22v5M19 12h10v8H19zm-11 19h10v7H8zm22 0h10v7H30z" transform="translate(21 19)" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="40" class="title" fill="#152d40">Network Engineering</text>
+    <text x="84" y="61" class="context" fill="#3e596a">Network topology, segmentation and diagnostics</text>
+    <path d="M36 110h399" fill="none" stroke="#a9bfca"/>
+    <path class="signal" style="animation-delay:-2.76s" d="M36 110h399" pathLength="100" fill="none" stroke="currentColor"/>
+    <circle class="pulse" style="animation-delay:-2.76s" cx="36" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="36" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="36" y="135" text-anchor="start" class="step" fill="#152d40">Map</text>
+    <circle class="pulse" style="animation-delay:-2.06s" cx="235.5" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="235.5" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="235.5" y="135" text-anchor="middle" class="step" fill="#152d40">Segment</text>
+    <circle class="pulse" style="animation-delay:-1.36s" cx="435" cy="110" r="8" fill="none" stroke="currentColor"/>
+    <circle cx="435" cy="110" r="4" fill="#ffffff" stroke="currentColor" stroke-width="1.5"/>
+    <text x="435" y="135" text-anchor="end" class="step" fill="#152d40">Troubleshoot</text>
+  </g>
+</svg>
